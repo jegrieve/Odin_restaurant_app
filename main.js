@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{const e=document.getElementById("content"),t=document.createElement("h1");t.innerText="Mario's Spaghetti Restaurant",e.appendChild(t);const n=document.createElement("img");n.src="spaghetti.jpg",e.appendChild(n);const a=document.createElement("p");a.innerText="Best spaghetti in town! Better than Mom's spaghetti.",e.appendChild(a)})()})();
