@@ -29,12 +29,12 @@ const openPage = (pageName, elmnt, color) => {
   
 
 document.getElementById("btn-home").addEventListener("click", function(e) {
-    openPage("home", this, "red");
+    openPage("home", this, "grey");
 });
 document.getElementById("btn-menu").addEventListener("click", function(e) {
-    openPage("menu", this, "green");
+    openPage("menu", this, "grey");
 });
 document.getElementById("btn-contact").addEventListener("click", function (e) {
-    openPage("contact", this, "blue");
+    openPage("contact", this, "grey");
 });
 document.getElementById("btn-home").click();
