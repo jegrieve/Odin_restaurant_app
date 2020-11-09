@@ -6,10 +6,6 @@ body, html {
   font-family: Arial;
 }
 
-/* #content {
-    margin-top: 0px;
-} */
-
 .tablink {
   background-color: #555;
   color: white;
@@ -33,14 +29,33 @@ body, html {
   display: none;
   padding: 100px 20px;
   height: 100%;
+  text-align: center;
 }
 
 #home {
-    background-color: red;
+    background-color: rgba(50, 49, 51, 0.6);
 }
 #menu {
-    background-color: green;
+    background-color: rgba(50, 49, 51, 0.6);
 }
 #contact {
-    background-color: blue;
+    background-color: rgba(50, 49, 51, 0.6);
+}
+
+#content {
+    height: 100%;
+}
+
+img {
+    width: 50%;
+}
+
+#lasagna {
+    width: 28%;
+    height: 28%;
+}
+
+#spaghetti {
+    width: 28%;
+    height: 28%;
 }
